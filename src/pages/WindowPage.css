@@ -61,19 +61,22 @@
   .windowPage-container {
     margin: 1rem;
   }
-  .window-type ul {
+
+  .window-type-text ul {
     display: none;
     gap: 1rem;
   }
-  .window-type-image {
+  .window-type {
     margin: 1rem 0;
     padding: 0rem;
+    width: 100%;
     /* background-color: red; */
   }
-  .window-type-image img {
+  .window-type img {
     height: auto;
+    /* background-color: red; */
   }
-  .window-type-image p {
+  .window-type p {
     margin: 1rem 0;
     width: auto;
     color: rgb(68, 68, 68);
