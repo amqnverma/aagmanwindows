@@ -7,21 +7,21 @@ import { Link } from "react-router-dom";
 const Windowtype = () => {
   const windowCards = [
     {
-      image: "../../public/winTypeL1.jpg",
+      image: "winTypeL1.jpg",
       type: "Slider two track",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, officiis?",
       link: "/window",
     },
     {
-      image: "../../public/winTypeM1.jpg",
+      image: "winTypeM1.jpg",
       type: "Slider three track",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, officiis?",
       link: "/window",
     },
     {
-      image: "../../public/winTypeS1.jpg",
+      image: "winTypeS1.jpg",
       type: "Open Window",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, officiis?",
