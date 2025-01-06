@@ -1,35 +1,35 @@
 const Data = [
   {
-    src: "../../public/winTypeS1.jpg",
+    src: "winTypeS1.jpg",
     size: "small",
   },
   {
-    src: "../../public/winTypeL2.jpg",
+    src: "winTypeL2.jpg",
     size: "medium",
   },
   {
-    src: "../../public/winTypeL1.jpg",
+    src: "winTypeL1.jpg",
     size: "large",
   },
   {
-    src: "../../public/winTypeM3.jpg",
+    src: "winTypeM3.jpg",
     size: "small",
   },
   {
-    src: "../../public/winTypeL3.jpg",
+    src: "winTypeL3.jpg",
     size: "medium",
   },
   {
-    src: "../../public/winTypeM1.jpg",
+    src: "winTypeM1.jpg",
     size: "large",
   },
   {
-    src: "../../public/winTypeM2.jpg",
+    src: "winTypeM2.jpg",
     size: "large",
     id: "2"
   },
   {
-    src: "../../public/winTypeS2.jpg",  
+    src: "winTypeS2.jpg",  
     size: "medium",
     id: "1"
   },

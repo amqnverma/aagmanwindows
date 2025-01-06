@@ -6,17 +6,17 @@ import { Link } from "react-router-dom";
 const Blog = () => {
   const blogsCard = [
     {
-      image: "../../public/winTypeL1.jpg",
+      image: "winTypeL1.jpg",
       descripton: "The 3 best picks for uPVC windows",
       time: "8 min ago",
     },
     {
-      image: "../../public/winTypeS1.jpg",
+      image: "winTypeS1.jpg",
       descripton: "Durability test Aluminium vs uPVC",
       time: "1 hour ago",
     },
     {
-      image: "../../public/winTypeL3.jpg",
+      image: "winTypeL3.jpg",
       descripton: "34% rise in uPVC purchase in 2024",
       time: "yesterday",
     },

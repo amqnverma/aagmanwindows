@@ -9,35 +9,35 @@ import { Link } from "react-router-dom";
 const BlogPage = () => {
   const blogsSuggestion = [
     {
-      image: "../../public/blogImage.jpg",
+      image: "blogImage.jpg",
       postDate: "January 14, 2025",
       heading: "Which thing Excites the uPVC buyer the most ?",
       tag1: "Design",
       tag2: "Research",
     },
     {
-      image: "../../public/winTypeL3.jpg",
+      image: "winTypeL3.jpg",
       postDate: "January 4, 2025",
       heading: "Why Choose uPVC Sliding Windows for Your Home?",
       tag1: "Window",
       tag2: "Latest",
     },
     {
-      image: "../../public/winTypeS2.jpg",
+      image: "winTypeS2.jpg",
       postDate: "February 4, 2025",
       heading: "All you need to know about about uPVC",
       tag1: "Technology",
       tag2: "Trend",
     },
     {
-      image: "../../public/winTypeM1.jpg",
+      image: "winTypeM1.jpg",
       postDate: "1 hour ago",
       heading: "uPVC is becoming customer's first choice",
       tag1: "Aluminium",
       tag2: "Premium",
     },
     {
-      image: "../../public/blogImage.jpg",
+      image: "blogImage.jpg",
       postDate: "January 14, 2025",
       heading: "Which thing Excites the uPVC buyer the most ?",
       tag1: "Design",
