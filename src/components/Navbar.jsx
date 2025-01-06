@@ -1,5 +1,5 @@
 import React from "react";
-import "./navbar.css";
+import "./Navbar.css";
 import aagmanlogo from "../../public/aagmanLogo.png";
 import { MdOutlineCalculate } from "react-icons/md";
 import { Link } from "react-router-dom";

@@ -1,7 +1,6 @@
 import React from "react";
 import "./BlogPage.css";
 import aagmanlogo from "../../public/aagmanLogo.png";
-import blogImage from "../../public/blogImage.jpg";
 import blogImage2 from "../../public/blogImage2.jpg";
 import { MdOutlineCalculate } from "react-icons/md";
 import { GoArrowUpRight } from "react-icons/go";
