@@ -1,0 +1,63 @@
+.window-container {
+  margin: 3rem 4rem;
+}
+.window-text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.window-text span {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.window-card-container {
+  display: flex;
+  gap: 1rem;
+  /* background-color: green; */
+}
+.window-card {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  /* gap: 0.5rem; */
+  border: 1px solid rgb(181, 180, 180);
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  /* background-color: red; */
+}
+.window-card-text {
+  padding: 10px;
+  /* background-color: rebeccapurple; */
+}
+.window-card img {
+  height: 14rem;
+  object-fit: cover;
+  /* width: 25rem; */
+}
+
+/* RESPONSIVE FOR MOBILE */
+@media screen and (max-width: 480px) {
+  .window-container {
+    margin: 1rem;
+    /* background-color: green; */
+  }
+  .window-text span {
+    display: none;
+  }
+  .window-card-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .window-card {
+    width: 100%;
+    /* border-radius: 12px; */
+  }
+  .slider {
+    margin: 2rem 0rem;
+  }
+}

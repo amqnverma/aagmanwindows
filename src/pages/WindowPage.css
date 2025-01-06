@@ -1,0 +1,87 @@
+.windowPage-container {
+  margin: 3rem 4rem;
+  /* background-color: red; */
+}
+.window-type-text {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(224, 223, 223);
+  margin-top: 1rem;
+  /* background-color: red; */
+}
+.window-type-text ul {
+  display: flex;
+  gap: 1.5rem;
+}
+.window-type-text ul span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: underline;
+}
+
+.window-type {
+  margin: 1rem 0rem;
+  width: 60%;
+}
+.window-type p {
+  margin: 10px 0;
+  color: rgb(68, 68, 68);
+}
+.window-type img {
+  height: 70vh;
+}
+.window-type-features {
+  margin: 1rem 0;
+  padding: 0 0 1rem 2rem;
+  border-bottom: 1px solid grey;
+}
+.window-type-features li {
+  color: rgb(68, 68, 68);
+  list-style: disc;
+}
+
+.window-type-gallery {
+  margin: 1rem 0;
+}
+.window-type-gallery img {
+  width: 25vw;
+  height: 15rem;
+  object-fit: cover;
+}
+.window-type-gallery-grid {
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* RESPONSIVE FOR MOBILE */
+@media screen and (max-width: 480px) {
+  .windowPage-container {
+    margin: 1rem;
+  }
+  .window-type ul {
+    display: none;
+    gap: 1rem;
+  }
+  .window-type-image {
+    margin: 1rem 0;
+    padding: 0rem;
+    /* background-color: red; */
+  }
+  .window-type-image img {
+    height: auto;
+  }
+  .window-type-image p {
+    margin: 1rem 0;
+    width: auto;
+    color: rgb(68, 68, 68);
+  }
+  .window-type-gallery {
+    margin: 0rem;
+  }
+  .window-type-gallery img {
+    width: auto;
+  }
+}
